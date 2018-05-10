@@ -5,6 +5,6 @@ class Student < User
   end
   
   def learn(title)
-    @knowledge << name
+    @knowledge << title
   end
 end
