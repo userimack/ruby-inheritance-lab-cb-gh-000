@@ -4,7 +4,7 @@ class Student < User
     @knowledge = []
   end
   
-  def learn(tech)
+  def learn(name)
     @knowledge << tech
   end
 end
